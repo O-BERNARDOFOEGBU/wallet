@@ -64,7 +64,7 @@ const Header = () => {
   const userDetails = useMemo(() => data?.data as UserDetails, [data]);
 
   return (
-    <header className="fixed-header flex items-center">
+    <header className="fixed-header flex items-center fixed top-0 left-0 w-full  z-50">
       <nav
         className="flex items-center justify-between p-6 lg:px-6 lg:py-0 w-full"
         aria-label="Global"
